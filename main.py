@@ -48,3 +48,29 @@ if(userNum % 2 != 0):
   print("Your number is odd")
 else:
   print("Your number is even")
+
+# Math Quadrants 
+# Ask the user for an x and a y value 
+
+x = int(input("Please give me an x value: "))
+y = int(input("Please give me an y value: "))
+
+# Using a nested conditional, output which quadrant they are in
+
+if(x > 0):
+  if(y > 0):
+    print("Your number is in the first quadrant")
+  else:
+    print("Your number is the fourth quadrant")
+elif(x < 0): 
+  if(y < 0): 
+    print("Your number is in the third quadrant")
+  if(y > 0):
+    print("Your number is in the second quadrant")
+
+# if x and y are 0, output the origin
+if(x == 0 and y == 0): 
+    print("You are on the origin")
+
+# and, or 
+# and takes precedence over or 
