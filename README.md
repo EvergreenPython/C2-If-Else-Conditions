@@ -70,3 +70,18 @@ else:
     print("x and y must be equal")
 ```
   > x and y must be equal
+
+## Order of Operations
+
+1. () Parentheses
+2. ** Exponents
+3. -a, +a Negative, positive arguments
+4. *, /, //, % Multiplication, Division, Quotient, Modulus
+5. +, - Addition, Subtraction
+6. <, <=, >, >=, ==, != Comparison Operators
+7. not Boolean Not
+8. and Boolean And
+9. or Boolean Or
+
+a++ --> a = a + 1
+a-- --> a = a - 1
